@@ -223,13 +223,23 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.project-link-content {
+  width: 370px;
+  background-color: var(--accent);
+}
+/* эксперементирую */
 .project-link{
   text-decoration: none;
 }
 
 .project-link:hover {
+  color: #2196F3;
+  background-color: #2196F3;
+  outline-color: #2196F3;
+  animation-fill-mode: var(--accent);
   opacity: 0.5;
 }
+/* эксперементирую */
 .project-name {
   color: var(--title-text-color);
   font-weight: 700;
