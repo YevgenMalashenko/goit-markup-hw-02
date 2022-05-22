@@ -56,6 +56,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.active {
+  color: var(--accent);
+}
+
 .contact-email,
 .contact-tel {
   color: var(--primary-text-color);
@@ -83,6 +87,7 @@ body {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
   border: none;
   border-radius: 4px;
@@ -116,9 +121,7 @@ button:focus {
 /* Про компанию */
 
 .about-company-title,
-.portfolio-title,
-.filters-buttons,
-.our-projects {
+.portfolio-title {
   visibility: hidden;
 }
 
@@ -182,6 +185,7 @@ footer {
 .footer-tel,
 .footer-email {
   text-decoration: none;
+  font-style: normal;
 }
 
 .physical-address:hover,
@@ -228,7 +232,7 @@ footer {
 
 .project-link:hover,
 .project-link:focus {
-  opacity: 0.9; 
+  opacity: 0.9;
 }
 
 .project-name:hover,
